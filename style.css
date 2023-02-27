@@ -1,0 +1,41 @@
+h1{
+    color:blueviolet;
+    
+}
+
+/*
+*{
+    border: solid
+}*/
+.header{
+    background-color: rgb(220, 220, 20);
+    display: flex;
+    justify-content: space-between;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-betweee;
+}
+p,h2{
+    text-align: left;
+    color: burlywood;
+}
+
+.grid{
+    display: flex;
+    flex-shrink: shrink;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    font-size: 20;
+    color:rgb(15, 16, 16);
+    background-color: rgb(128, 128, 128);
+}
